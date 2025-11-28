@@ -64,11 +64,11 @@ function Navbar() {
       {mobileOpen && (
         <div className="md:hidden bg-black text-white pb-4">
           <ul className="flex flex-col space-y-4 px-6 pt-4">
-            <li className="hover:text-green-400 cursor-pointer">HOME</li>
-            <li className="hover:text-green-400 cursor-pointer">ABOUT</li>
-            <li className="hover:text-green-400 cursor-pointer">SERVICE</li>
-            <li className="hover:text-green-400 cursor-pointer">PORTFOLIO</li>
-            <li className="hover:text-green-400 cursor-pointer">PAGES</li>
+            <li> <Link to = "/" className="hover:text-green-400 cursor-pointer">HOME</Link></li>
+            <li> <Link to = "/about" className="hover:text-green-400 cursor-pointer">ABOUT</Link></li>
+            <li> <Link to = "/services" className="hover:text-green-400 cursor-pointer">SERVICE</Link></li>
+            <li> <Link to = "/projects" className="hover:text-green-400 cursor-pointer">PORTFOLIO</Link></li>
+            <li> <Link to = "/contact" className="hover:text-green-400 cursor-pointer">PAGES</Link></li>
 
             <div className="flex items-center space-x-2 text-green-400 cursor-pointer">
               <FiSearch size={18} />
