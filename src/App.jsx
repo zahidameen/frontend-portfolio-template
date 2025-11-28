@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/re-used-components/Navbar'
 import NewsletterFooter from './components/re-used-components/Footer'
-import Home from './pages/home'
+import Home from './pages/Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import AboutPage from './pages/About-Page'
 import Services from './pages/Services'
